@@ -12,4 +12,8 @@ public class User {
     public void setId(Integer id) {
         this.id = id;
     }
+    //新增一个get方法
+    public Integer getId() {
+        return id;
+    }
 }
