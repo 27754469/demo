@@ -17,4 +17,8 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+    //新增一个get方法
+    public Integer getId() {
+        return id;
+    }
 }
