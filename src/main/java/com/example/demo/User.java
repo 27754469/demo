@@ -12,4 +12,9 @@ public class User {
     public void setId(Integer id) {
         this.id = id;
     }
+
+    //新增一个set方法
+    public void setName(String name) {
+        this.name = name;
+    }
 }
